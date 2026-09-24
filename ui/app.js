@@ -9,15 +9,17 @@ async function loadLinks(match) {
   try {
     const response = await fetch(linkFileFor(match));
     if (!response.ok) return [];
+    const lines = (await response.text()).split(/\r?\n/);
+    const expandedUrlIndex = lines.findIndex((line) => line.trim() === "展開URL");
+    if (expandedUrlIndex < 0) return [];
     const linksByBoard = new Map();
-    (await response.text()).split(/\r?\n/).slice(1).forEach((line) => {
+    lines.slice(expandedUrlIndex + 1).forEach((line) => {
       const separator = line.indexOf(":");
       if (separator < 0) return;
       const number = line.slice(0, separator).trim();
       const url = line.slice(separator + 1).trim();
       if (!number || !url.startsWith("http")) return;
-      const current = linksByBoard.get(number);
-      if (!current || !url.includes("tinyurl.bridgebase.com")) linksByBoard.set(number, { number, url });
+      linksByBoard.set(number, { number, url });
     });
     return [...linksByBoard.values()];
   } catch { return []; }

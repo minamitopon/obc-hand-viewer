@@ -1,7 +1,11 @@
-const dateFormatter = new Intl.DateTimeFormat("ja-JP", { year: "numeric", month: "long", day: "numeric", weekday: "short" });
 const results = document.querySelector("#results");
 const search = document.querySelector("#search");
 const linksByFolder = new Map();
+
+function formatDate(date) {
+  const [year, month, day] = date.split("-");
+  return `${year}/${Number(month)}/${Number(day)}`;
+}
 
 function linkFileFor(match) { return `../${match.folder}/link.txt`; }
 
@@ -27,7 +31,7 @@ async function loadLinks(match) {
 
 function groupedMatches(query) {
   const normalized = query.trim().toLowerCase();
-  return window.MATCHES.filter((match) => match.name.toLowerCase().includes(normalized)).reduce((groups, match) => {
+  return window.MATCHES.filter((match) => linksByFolder.get(match.folder)?.length && match.name.toLowerCase().includes(normalized)).reduce((groups, match) => {
     const group = groups.find((item) => item.date === match.date);
     if (group) group.matches.push(match);
     else groups.push({ date: match.date, matches: [match] });
@@ -41,7 +45,7 @@ function render(query = "") {
     const date = document.createElement("details");
     date.className = "date-group";
     date.open = index === 0;
-    date.innerHTML = `<summary><span>${dateFormatter.format(new Date(`${group.date}T00:00:00`))}</span></summary>`;
+    date.innerHTML = `<summary><span>${formatDate(group.date)}</span></summary>`;
     const matches = document.createElement("div");
     matches.className = "match-list";
     group.matches.forEach((match) => matches.appendChild(renderMatch(match)));
@@ -56,14 +60,9 @@ function renderMatch(match) {
   article.className = "match";
   const links = linksByFolder.get(match.folder);
   const session = match.session ? `<span class="session">${match.session}</span>` : "";
-  article.innerHTML = `<div class="match-heading"><div><h2>${match.name}</h2>${session}</div><span class="board-count">${links ? `${links.length} boards` : "読み込み中"}</span></div><div class="boards"></div>`;
+  article.innerHTML = `<div class="match-heading"><div><h2>${match.name}</h2>${session}</div><span class="board-count">${links.length} boards</span></div><div class="boards"></div>`;
   const boards = article.querySelector(".boards");
-  if (links) renderBoards(boards, links);
-  else loadLinks(match).then((loadedLinks) => {
-    linksByFolder.set(match.folder, loadedLinks);
-    renderBoards(boards, loadedLinks);
-    article.querySelector(".board-count").textContent = loadedLinks.length ? `${loadedLinks.length} boards` : "URL未登録";
-  });
+  renderBoards(boards, links);
   return article;
 }
 
@@ -84,4 +83,7 @@ function renderBoards(container, links) {
 }
 
 search.addEventListener("input", (event) => render(event.target.value));
-render();
+
+Promise.all(window.MATCHES.map(async (match) => {
+  linksByFolder.set(match.folder, await loadLinks(match));
+})).then(() => render());

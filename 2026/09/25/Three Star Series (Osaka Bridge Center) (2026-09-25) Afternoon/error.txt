@@ -1,0 +1,4 @@
+# LIN変換エラー
+
+- #1.lin: 重複カード: D3, D4, D5, D7, HK, HT, S4, S8, SQ; 不足カード: C2, CA, D8, DT, H9, HA, S3, S7, SJ
+- #1.lin: 重複カード: D3, D4, D5, D7, HK, HT, S4, S8, SQ; 不足カード: C2, CA, D8, DT, H9, HA, S3, S7, SJ

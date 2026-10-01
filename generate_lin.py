@@ -101,7 +101,7 @@ def parse_board(chunk: str) -> dict[str, object] | None:
 
 def parse_page(text: str) -> dict[int, dict[str, object]]:
     boards = {}
-    for chunk in text.split("---------------------------------"):
+    for chunk in re.split(r"(?m)^-{20,}\s*$", text):
         board = parse_board(chunk)
         if board:
             boards[board["board"]] = board

@@ -2,7 +2,7 @@ const results = document.querySelector("#results");
 const search = document.querySelector("#search");
 const linksByFolder = new Map();
 const scriptPath = new URL(document.currentScript.src).pathname;
-const appRoot = scriptPath.endsWith("/ui/app.js") ? scriptPath.slice(0, -"/ui/app.js".length) : scriptPath.slice(0, -"/app.js".length);
+const appRoot = scriptPath.replace(/(?:\/(?:ui|public))?\/app\.js$/, "");
 
 function formatDate(date) {
   const [year, month, day] = date.split("-");

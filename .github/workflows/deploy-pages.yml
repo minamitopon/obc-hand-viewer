@@ -30,6 +30,8 @@ jobs:
         run: |
           mkdir _site
           cp -R ui/. _site/
+          mkdir _site/ui
+          cp -R ui/app.js ui/index.html ui/matches.js ui/styles.css _site/ui/
           cp -R 2026 _site/2026
           touch _site/.nojekyll
 

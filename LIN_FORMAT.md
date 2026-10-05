@@ -33,3 +33,18 @@ The script validates every generated deal immediately. A failed board is fetched
 again until it passes or three attempts have been made. After three failures,
 the board is left out of the upload set and its Japanese error reason is added
 to `error.txt`.
+
+## Expanding Handviewer links
+
+When asked to expand the shortened BBO links in a `link.txt` file:
+
+1. Resolve each shortened URL by following its redirects to the final
+   `www.bridgebase.com/tools/handviewer.html` URL.
+2. Keep the existing header and all shortened URLs unchanged.
+3. After the original link list, add a blank line, the heading `展開URL`, and
+   one expanded URL per board, using the same `番号番: URL` format and board
+   order as the original list.
+4. Write the expanded links into that same `link.txt`. Do not replace the
+   shortened links or create a separate output file.
+5. Verify that the expanded-link count matches the original count and that the
+   original shortened URLs remain present.

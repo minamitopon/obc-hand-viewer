@@ -26,5 +26,6 @@ window.MATCHES = [
   { date: "2026-09-26", name: "Osaka Tenbinza Sectional OPEN 3000 MP PAIRS", folder: "2026/09/26/Osaka Tenbinza Sectional OPEN 3000 MP PAIRS (2026-09-26) Session 2", session: "Session 2" },
   { date: "2026-09-30", name: "Three Star Series (Osaka Bridge Center)", folder: "2026/09/30/Three Star Series (Osaka Bridge Center) (2026-09-30) Afternoon", session: "Afternoon" },
   { date: "2026-10-02", name: "Friday Afternoon Class 4", folder: "2026/10/02/Friday Afternoon Class 4 (2026-10-02)", session: "" },
-  { date: "2026-10-03", name: "Osaka SRR & Pairs 10", folder: "2026/10/03/Osaka SRR & Pairs 10 (2026-10-03) Session 1 Flight A", session: "Session 1 Flight A" }
+  { date: "2026-10-03", name: "Osaka SRR & Pairs 10", folder: "2026/10/03/Osaka SRR & Pairs 10 (2026-10-03) Session 1 Flight A", session: "Session 1 Flight A" },
+  { date: "2026-10-05", name: "Three Star Series (Osaka Bridge Center)", folder: "2026/10/05/Three Star Series (Osaka Bridge Center) (2026-10-05) Afternoon", session: "Afternoon" }
 ];

@@ -48,3 +48,12 @@ When asked to expand the shortened BBO links in a `link.txt` file:
    shortened links or create a separate output file.
 5. Verify that the expanded-link count matches the original count and that the
    original shortened URLs remain present.
+
+## Merging feature branches
+
+When asked to create a PR and merge a feature branch:
+
+1. Create the PR against `development` and merge it.
+2. After the merge succeeds, switch to `development`, pull the latest changes,
+   and delete both the local and remote feature branch.
+3. Keep the branch if the merge fails.

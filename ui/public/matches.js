@@ -29,5 +29,10 @@ window.MATCHES = [
   { date: "2026-10-03", name: "Osaka SRR & Pairs 10", folder: "2026/10/03/Osaka SRR & Pairs 10 (2026-10-03) Session 1 Flight A", session: "Session 1 Flight A" },
   { date: "2026-10-04", name: "Osaka STF 15 OPEN 4000 2000 MP Pairs", folder: "2026/10/04/Osaka STF 15 OPEN 4000 2000 MP Pairs (2026-10-04) Session 1", session: "Session 1" },
   { date: "2026-10-04", name: "Osaka STF 15 OPEN 4000 2000 MP Pairs", folder: "2026/10/04/Osaka STF 15 OPEN 4000 2000 MP Pairs (2026-10-04) Session 2", session: "Session 2" },
-  { date: "2026-10-05", name: "Three Star Series (Osaka Bridge Center)", folder: "2026/10/05/Three Star Series (Osaka Bridge Center) (2026-10-05) Afternoon", session: "Afternoon" }
+  { date: "2026-10-05", name: "Three Star Series (Osaka Bridge Center)", folder: "2026/10/05/Three Star Series (Osaka Bridge Center) (2026-10-05) Afternoon", session: "Afternoon" },
+  { date: "2026-10-06", name: "Tuesday Morning Class 2", folder: "2026/10/06/Tuesday Morning Class 2 (2026-10-06)", session: "" },
+  { date: "2026-10-07", name: "IMP 1st Wednesday Afternoon HC Open", folder: "2026/10/07/IMP 1st Wednesday Afternoon HC Open (2026-10-07) Session 5", session: "Session 5" },
+  { date: "2026-10-07", name: "IMP 1st Wednesday Morning Major I", folder: "2026/10/07/IMP 1st Wednesday Morning Major I (2026-10-07) Session 5", session: "Session 5" },
+  { date: "2026-10-09", name: "Friday Afternoon Class 4", folder: "2026/10/09/Friday Afternoon Class 4 (2026-10-09)", session: "" },
+  { date: "2026-10-09", name: "IMP 2nd Friday Morning CCG 400T", folder: "2026/10/09/IMP 2nd Friday Morning CCG 400T (2026-10-09)", session: "" }
 ];

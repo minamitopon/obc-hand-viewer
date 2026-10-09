@@ -48,6 +48,9 @@ When asked to expand the shortened BBO links in a `link.txt` file:
    shortened links or create a separate output file.
 5. Verify that the expanded-link count matches the original count and that the
    original shortened URLs remain present.
+6. Add the match to `ui/public/matches.js` so it appears in the public viewer.
+   Add new matches only there, not to `ui/matches.js`, and verify the file with
+   `node --check ui/public/matches.js`.
 
 ## Merging feature branches
 

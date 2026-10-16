@@ -23,5 +23,7 @@ window.MATCHES = [
   { date: "2026-09-21", name: "Keiro Sectional OPEN 2000 750 MP PAIRS", folder: "2026/09/21/Keiro Sectional OPEN 2000 750 MP PAIRS (2026-09-21) Session 1 Section ABC", session: "Session 1 Section ABC" },
   { date: "2026-09-21", name: "Keiro Sectional OPEN 2000 750 MP PAIRS", folder: "2026/09/21/Keiro Sectional OPEN 2000 750 MP PAIRS (2026-09-21) Session 2 Section ABC", session: "Session 2 Section ABC" },
   { date: "2026-09-26", name: "Osaka Tenbinza Sectional OPEN 3000 MP PAIRS", folder: "2026/09/26/Osaka Tenbinza Sectional OPEN 3000 MP PAIRS (2026-09-26) Session 1", session: "Session 1" },
-  { date: "2026-09-26", name: "Osaka Tenbinza Sectional OPEN 3000 MP PAIRS", folder: "2026/09/26/Osaka Tenbinza Sectional OPEN 3000 MP PAIRS (2026-09-26) Session 2", session: "Session 2" }
+  { date: "2026-09-26", name: "Osaka Tenbinza Sectional OPEN 3000 MP PAIRS", folder: "2026/09/26/Osaka Tenbinza Sectional OPEN 3000 MP PAIRS (2026-09-26) Session 2", session: "Session 2" },
+  { date: "2026-10-12", name: "5th Kenichi Kozu Cup OPEN 4000 2000 MP Pairs", folder: "2026/10/12/5th Kenichi Kozu Cup OPEN 4000 2000 MP Pairs (2026-10-12) Session 1 Section AB", session: "Session 1 Section AB" },
+  { date: "2026-10-12", name: "5th Kenichi Kozu Cup OPEN 4000 2000 MP Pairs", folder: "2026/10/12/5th Kenichi Kozu Cup OPEN 4000 2000 MP Pairs (2026-10-12) Session 2 Section AB", session: "Session 2 Section AB" }
 ];

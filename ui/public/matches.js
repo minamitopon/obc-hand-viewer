@@ -39,5 +39,10 @@ window.MATCHES = [
   { date: "2026-10-11", name: "Hyogo Governor's Cup OPEN TEAMS", folder: "2026/10/11/Hyogo Governor's Cup OPEN TEAMS (2026-10-11) Session 2 Flight A", session: "Session 2 Flight A" },
   { date: "2026-10-11", name: "Hyogo Governor's Cup OPEN TEAMS", folder: "2026/10/11/Hyogo Governor's Cup OPEN TEAMS (2026-10-11) Session 3 Flight A", session: "Session 3 Flight A" },
   { date: "2026-10-12", name: "5th Kenichi Kozu Cup OPEN 4000 2000 MP Pairs", folder: "2026/10/12/5th Kenichi Kozu Cup OPEN 4000 2000 MP Pairs (2026-10-12) Session 1 Section AB", session: "Session 1 Section AB" },
-  { date: "2026-10-12", name: "5th Kenichi Kozu Cup OPEN 4000 2000 MP Pairs", folder: "2026/10/12/5th Kenichi Kozu Cup OPEN 4000 2000 MP Pairs (2026-10-12) Session 2 Section AB", session: "Session 2 Section AB" }
+  { date: "2026-10-12", name: "5th Kenichi Kozu Cup OPEN 4000 2000 MP Pairs", folder: "2026/10/12/5th Kenichi Kozu Cup OPEN 4000 2000 MP Pairs (2026-10-12) Session 2 Section AB", session: "Session 2 Section AB" },
+  { date: "2026-10-13", name: "Tuesday Morning Class 2", folder: "2026/10/13/Tuesday Morning Class 2 (2026-10-13)", session: "" },
+  { date: "2026-10-14", name: "Wednesday Afternoon Class 4", folder: "2026/10/14/Wednesday Afternoon Class 4 (2026-10-14)", session: "" },
+  { date: "2026-10-14", name: "IMP 2nd Wednesday Morning CCG 400T", folder: "2026/10/14/IMP 2nd Wednesday Morning CCG 400T (2026-10-14)", session: "" },
+  { date: "2026-10-16", name: "Three Star Series (Osaka Bridge Center)", folder: "2026/10/16/Three Star Series (Osaka Bridge Center) (2026-10-16) Afternoon", session: "Afternoon" },
+  { date: "2026-10-16", name: "IMP 3rd Friday Morning CCG 400T", folder: "2026/10/16/IMP 3rd Friday Morning CCG 400T (2026-10-16)", session: "" }
 ];

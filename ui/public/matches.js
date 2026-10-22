@@ -50,5 +50,8 @@ window.MATCHES = [
   { date: "2026-10-18", name: "OBC Sectional 11 HANDICAP TEAMS", folder: "2026/10/18/OBC Sectional 11 HANDICAP TEAMS (2026-10-18) Session 1 Flight A", session: "Session 1 Flight A" },
   { date: "2026-10-18", name: "OBC Sectional 11 HANDICAP TEAMS", folder: "2026/10/18/OBC Sectional 11 HANDICAP TEAMS (2026-10-18) Session 2 Flight A", session: "Session 2 Flight A" },
   { date: "2026-10-19", name: "Monday Morning Class 3 OPEN 500 200", folder: "2026/10/19/Monday Morning Class 3 OPEN 500 200 (2026-10-19)", session: "" },
-  { date: "2026-10-19", name: "Three Star Series (Osaka Bridge Center)", folder: "2026/10/19/Three Star Series (Osaka Bridge Center) (2026-10-19) Afternoon", session: "Afternoon" }
+  { date: "2026-10-19", name: "Three Star Series (Osaka Bridge Center)", folder: "2026/10/19/Three Star Series (Osaka Bridge Center) (2026-10-19) Afternoon", session: "Afternoon" },
+  { date: "2026-10-20", name: "Tuesday Morning Class 2", folder: "2026/10/20/Tuesday Morning Class 2 (2026-10-20)", session: "" },
+  { date: "2026-10-21", name: "Quibidders Sectional HANDICAP PAIRS", folder: "2026/10/21/Quibidders Sectional HANDICAP PAIRS (2026-10-21) Session 1 Section AB", session: "Session 1 Section AB" },
+  { date: "2026-10-21", name: "Quibidders Sectional HANDICAP PAIRS", folder: "2026/10/21/Quibidders Sectional HANDICAP PAIRS (2026-10-21) Session 2 Section AB", session: "Session 2 Section AB" }
 ];

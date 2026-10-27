@@ -53,5 +53,12 @@ window.MATCHES = [
   { date: "2026-10-19", name: "Three Star Series (Osaka Bridge Center)", folder: "2026/10/19/Three Star Series (Osaka Bridge Center) (2026-10-19) Afternoon", session: "Afternoon" },
   { date: "2026-10-20", name: "Tuesday Morning Class 2", folder: "2026/10/20/Tuesday Morning Class 2 (2026-10-20)", session: "" },
   { date: "2026-10-21", name: "Quibidders Sectional HANDICAP PAIRS", folder: "2026/10/21/Quibidders Sectional HANDICAP PAIRS (2026-10-21) Session 1 Section AB", session: "Session 1 Section AB" },
-  { date: "2026-10-21", name: "Quibidders Sectional HANDICAP PAIRS", folder: "2026/10/21/Quibidders Sectional HANDICAP PAIRS (2026-10-21) Session 2 Section AB", session: "Session 2 Section AB" }
+  { date: "2026-10-21", name: "Quibidders Sectional HANDICAP PAIRS", folder: "2026/10/21/Quibidders Sectional HANDICAP PAIRS (2026-10-21) Session 2 Section AB", session: "Session 2 Section AB" },
+  { date: "2026-10-23", name: "Friday Afternoon Class 4", folder: "2026/10/23/Friday Afternoon Class 4 (2026-10-23)", session: "" },
+  { date: "2026-10-23", name: "IMP 4th Friday Morning CCG 600T", folder: "2026/10/23/IMP 4th Friday Morning CCG 600T (2026-10-23)", session: "" },
+  { date: "2026-10-24", name: "Osaka Scorpio Sectional 1 OPEN 3000 MP Pairs", folder: "2026/10/24/Osaka Scorpio Sectional 1 OPEN 3000 MP Pairs (2026-10-24) Session 1", session: "Session 1" },
+  { date: "2026-10-24", name: "Osaka Scorpio Sectional 1 OPEN 3000 MP Pairs", folder: "2026/10/24/Osaka Scorpio Sectional 1 OPEN 3000 MP Pairs (2026-10-24) Session 2", session: "Session 2" },
+  { date: "2026-10-26", name: "OBC Cup 6 2500 1000 500 MP Pairs", folder: "2026/10/26/OBC Cup 6 2500 1000 500 MP Pairs (2026-10-26) Session 1", session: "Session 1" },
+  { date: "2026-10-26", name: "OBC Cup 6 2500 1000 500 MP Pairs", folder: "2026/10/26/OBC Cup 6 2500 1000 500 MP Pairs (2026-10-26) Session 2", session: "Session 2" },
+  { date: "2026-10-27", name: "Tuesday Morning Class 2", folder: "2026/10/27/Tuesday Morning Class 2 (2026-10-27)", session: "" }
 ];

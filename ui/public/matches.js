@@ -60,5 +60,13 @@ window.MATCHES = [
   { date: "2026-10-24", name: "Osaka Scorpio Sectional 1 OPEN 3000 MP Pairs", folder: "2026/10/24/Osaka Scorpio Sectional 1 OPEN 3000 MP Pairs (2026-10-24) Session 2", session: "Session 2" },
   { date: "2026-10-26", name: "OBC Cup 6 2500 1000 500 MP Pairs", folder: "2026/10/26/OBC Cup 6 2500 1000 500 MP Pairs (2026-10-26) Session 1", session: "Session 1" },
   { date: "2026-10-26", name: "OBC Cup 6 2500 1000 500 MP Pairs", folder: "2026/10/26/OBC Cup 6 2500 1000 500 MP Pairs (2026-10-26) Session 2", session: "Session 2" },
-  { date: "2026-10-27", name: "Tuesday Morning Class 2", folder: "2026/10/27/Tuesday Morning Class 2 (2026-10-27)", session: "" }
+  { date: "2026-10-27", name: "Tuesday Morning Class 2", folder: "2026/10/27/Tuesday Morning Class 2 (2026-10-27)", session: "" },
+  { date: "2026-10-28", name: "IMP 4th Wednesday Morning CCG 400T", folder: "2026/10/28/IMP 4th Wednesday Morning CCG 400T (2026-10-28)", session: "" },
+  { date: "2026-10-28", name: "Three Star Series (Osaka Bridge Center)", folder: "2026/10/28/Three Star Series (Osaka Bridge Center) (2026-10-28) Afternoon", session: "Afternoon" },
+  { date: "2026-10-30", name: "Three Star Series (Osaka Bridge Center)", folder: "2026/10/30/Three Star Series (Osaka Bridge Center) (2026-10-30) Afternoon", session: "Afternoon" },
+  { date: "2026-10-30", name: "IMP 4th Friday Morning CCG 400T", folder: "2026/10/30/IMP 4th Friday Morning CCG 400T (2026-10-30)", session: "" },
+  { date: "2026-10-31", name: "Osaka Saturday Sectional Ace & 2000 MP Handicap Pairs", folder: "2026/10/31/Osaka Saturday Sectional Ace & 2000 MP Handicap Pairs (2026-10-31) Session 1", session: "Session 1" },
+  { date: "2026-10-31", name: "Osaka Saturday Sectional Ace & 2000 MP Handicap Pairs", folder: "2026/10/31/Osaka Saturday Sectional Ace & 2000 MP Handicap Pairs (2026-10-31) Session 2", session: "Session 2" },
+  { date: "2026-11-01", name: "Osaka STF 16 OPEN 4000 2000 MP Pairs", folder: "2026/11/01/Osaka STF 16 OPEN 4000 2000 MP Pairs (2026-11-01) Session 1", session: "Session 1" },
+  { date: "2026-11-01", name: "Osaka STF 16 OPEN 4000 2000 MP Pairs", folder: "2026/11/01/Osaka STF 16 OPEN 4000 2000 MP Pairs (2026-11-01) Session 2", session: "Session 2" }
 ];

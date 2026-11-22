@@ -68,5 +68,21 @@ window.MATCHES = [
   { date: "2026-10-31", name: "Osaka Saturday Sectional Ace & 2000 MP Handicap Pairs", folder: "2026/10/31/Osaka Saturday Sectional Ace & 2000 MP Handicap Pairs (2026-10-31) Session 1", session: "Session 1" },
   { date: "2026-10-31", name: "Osaka Saturday Sectional Ace & 2000 MP Handicap Pairs", folder: "2026/10/31/Osaka Saturday Sectional Ace & 2000 MP Handicap Pairs (2026-10-31) Session 2", session: "Session 2" },
   { date: "2026-11-01", name: "Osaka STF 16 OPEN 4000 2000 MP Pairs", folder: "2026/11/01/Osaka STF 16 OPEN 4000 2000 MP Pairs (2026-11-01) Session 1", session: "Session 1" },
-  { date: "2026-11-01", name: "Osaka STF 16 OPEN 4000 2000 MP Pairs", folder: "2026/11/01/Osaka STF 16 OPEN 4000 2000 MP Pairs (2026-11-01) Session 2", session: "Session 2" }
+  { date: "2026-11-01", name: "Osaka STF 16 OPEN 4000 2000 MP Pairs", folder: "2026/11/01/Osaka STF 16 OPEN 4000 2000 MP Pairs (2026-11-01) Session 2", session: "Session 2" },
+  { date: "2026-11-03", name: "SWISS PAIRS", folder: "2026/11/03/SWISS PAIRS (2026-11-03) Session 1 Flight A", session: "Session 1 Flight A" },
+  { date: "2026-11-03", name: "SWISS PAIRS", folder: "2026/11/03/SWISS PAIRS (2026-11-03) Session 1 Flight B", session: "Session 1 Flight B" },
+  { date: "2026-11-03", name: "SWISS PAIRS", folder: "2026/11/03/SWISS PAIRS (2026-11-03) Session 1 Flight C", session: "Session 1 Flight C" },
+  { date: "2026-11-03", name: "SWISS PAIRS", folder: "2026/11/03/SWISS PAIRS (2026-11-03) Session 2 Flight A", session: "Session 2 Flight A" },
+  { date: "2026-11-03", name: "SWISS PAIRS", folder: "2026/11/03/SWISS PAIRS (2026-11-03) Session 2 Flight B", session: "Session 2 Flight B" },
+  { date: "2026-11-03", name: "SWISS PAIRS", folder: "2026/11/03/SWISS PAIRS (2026-11-03) Session 2 Flight C", session: "Session 2 Flight C" },
+  { date: "2026-11-04", name: "Mon-Fri User Training Manager", folder: "2026/11/04/Mon-Fri User Training Manager (2026-11-04) Session 1", session: "Session 1" },
+  { date: "2026-11-04", name: "Mon-Fri User Training Touch", folder: "2026/11/04/Mon-Fri User Training Touch (2026-11-04) Session 1", session: "Session 1" },
+  { date: "2026-11-06", name: "Kobe Friday Sectional Mon-Fri User Training", folder: "2026/11/06/Kobe Friday Sectional Mon-Fri User Training (2026-11-06) Session 1", session: "Session 1" },
+  { date: "2026-11-06", name: "Osaka Thursday Handicap Sectional", folder: "2026/11/06/Osaka Thursday Handicap Sectional (2026-11-06) Session 1", session: "Session 1" },
+  { date: "2026-11-07", name: "Kobe Friday Sectional OPEN/3000MP PAIRS", folder: "2026/11/07/Kobe Friday Sectional OPEN/3000MP PAIRS (2026-11-07) Session 1", session: "Session 1" },
+  { date: "2026-11-07", name: "Kobe Friday Sectional OPEN/3000MP PAIRS", folder: "2026/11/07/Kobe Friday Sectional OPEN/3000MP PAIRS (2026-11-07) Session 2", session: "Session 2" },
+  { date: "2026-11-09", name: "Kobe Saturday Sectional OPEN/3500/1500", folder: "2026/11/09/Kobe Saturday Sectional OPEN/3500/1500 (2026-11-09) Session 1", session: "Session 1" },
+  { date: "2026-11-09", name: "Kobe Saturday Sectional OPEN/3500/1500", folder: "2026/11/09/Kobe Saturday Sectional OPEN/3500/1500 (2026-11-09) Session 2", session: "Session 2" },
+  { date: "2026-11-21", name: "Osaka Sagittarius Sectional OPEN 3000 MP Pairs", folder: "2026/11/21/Osaka Sagittarius Sectional OPEN 3000 MP Pairs (2026-11-21) Session 1", session: "Session 1" },
+  { date: "2026-11-21", name: "Osaka Sagittarius Sectional OPEN 3000 MP Pairs", folder: "2026/11/21/Osaka Sagittarius Sectional OPEN 3000 MP Pairs (2026-11-21) Session 2", session: "Session 2" }
 ];
